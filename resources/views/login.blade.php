@@ -27,6 +27,8 @@
             </div>
             <div>
                 <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 font-semibold">Login</button>
+                <a href="{{ route('home') }}" class="text-1xl font-bold mb-4">Home</a>
+                <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">About</a>
             </div>
         </form>
     </div>

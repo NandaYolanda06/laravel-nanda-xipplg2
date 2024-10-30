@@ -18,6 +18,8 @@
             <a href="Gallery.html" class="text-blue-500 hover:underline">Gallery</a>
             <span>|</span>
             <a href="Data.html" class="text-blue-500 hover:underline">Data</a>
+            <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">About</a>
+            <a href="{{ route('login') }}" class="text-1xl font-bold mb-4">Login</a>
         </div>
 
         <div class="text-left">
